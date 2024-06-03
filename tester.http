@@ -1,0 +1,27 @@
+###
+
+GET http://localhost:3333/post
+
+###
+POST http://localhost:3333/post 
+Content-Type: application/json
+
+{
+    "title": "título de teste 3",
+    "description": "Descrição de teste 3"
+}
+
+### 
+GET http://localhost:3333/post/1
+
+### 
+DELETE http://localhost:3333/post/1
+
+###
+PUT http://localhost:3333/post/2
+Content-Type: application/json
+
+{
+    "title": "título de teste teste",
+    "description": "Descrição de teste 3teste"
+}
